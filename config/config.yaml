@@ -1,4 +1,5 @@
 #contains what the data source nd all
+#so that we should make changes in this config file only, not everywhere
 data_source: http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
 
 artifacts: 
