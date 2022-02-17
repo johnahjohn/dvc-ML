@@ -3,4 +3,4 @@ pandas
 scikit-learn
 
 # local packages -
-#-e .
+-e .
