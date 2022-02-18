@@ -10,10 +10,10 @@ def read_yaml(path_to_yaml: str) -> dict: #it will be returning a dictionary of 
     return content #it will returning as a dictionary
 
 
-# def create_directory(dirs: list):
-#     for dir_path in dirs:
-#         os.makedirs(dir_path, exist_ok=True)
-#         print(f"directory is created at {dir_path}")
+def create_directory(dirs: list): #we can pass a list.it will not return anything
+    for dir_path in dirs:#iterate over that list
+        os.makedirs(dir_path, exist_ok=True)
+        print(f"directory is created at {dir_path}")
 
 
 # def save_local_df(data, data_path, index_status=False):
