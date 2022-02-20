@@ -10,7 +10,7 @@ workflow.png
 * open and project folder in VS code then follow below command -
 
 ```bash
-echo "# dvc-ML-demo-AIOps" >> README.md
+echo "# dvc-ML" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
@@ -51,8 +51,8 @@ setup(
     description="A small package for dvc ml pipeline demo",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/c17hawke/dvc-ML-demo-AIOps",
-    author_email="sunny.c17hawke@gmail.com",
+    url="https://github.com/johnahjohn/dvc-ML",
+    author_email="ahjohn98@gmail.com",
     packages=["src"],
     python_requires=">=3.7",
     install_requires=[
